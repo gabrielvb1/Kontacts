@@ -1,0 +1,69 @@
+.container-delete {
+    background: #FFFDFD;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 43%;
+}
+
+.container-delete-close {
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+    margin-bottom: 2.4rem;
+}
+
+.container-delete h1 {
+    margin-bottom: 2.4rem;
+}
+
+.container-delete-close img {
+    cursor: pointer;
+}
+
+.container-delete p {
+    margin-bottom: 3.1rem;
+}
+
+.container-delete button {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    height: 15%;
+    cursor: pointer;
+    font-weight: 700;
+    width: 70%;
+}
+
+.excluir {
+    background: #04C45C;
+    margin-bottom: 0.8rem;
+}
+
+.cancelar {
+    background: rgba(251, 6, 21, 0.65);
+}
+
+@media(max-width:1000px) {
+    .container-delete {
+        width: 90%;
+        height: 90%;
+    }
+
+    .container-delete button {
+        height: 10%;
+        width: 70%;
+    }
+
+    .container-delete-close {
+        margin-top: -15rem;
+        margin-bottom: 15.4rem;
+    }
+
+    .container-delete p {
+        margin-bottom: 10.1rem;
+    }
+}

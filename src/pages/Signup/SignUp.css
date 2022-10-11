@@ -1,0 +1,94 @@
+.container-signup {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.right-signup {
+  background-image: url('./Direita.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+}
+
+.left-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.container-form-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.container-form-signup form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  min-height: 60%;
+  padding-top: 3.5rem;
+}
+
+.container-form-signup input {
+  background: #FDFAFA;
+  border: 1px solid #E8E8E8;
+  height: 4.5rem;
+  margin-bottom: 1.6rem;
+  padding-left: 16px;
+  
+}
+
+.container-form-signup button {
+  border: none;
+  height: 4.4rem;
+  color: white;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-cadastrar{
+  margin-top: 7.2rem;
+  background-color: #04C45C;
+}
+
+.btn-cancelar{
+  background: #FB0615A6; 
+}
+.login-redirect{
+  text-align: center;
+  margin-top: 9.6rem;
+}
+
+.span-clique-aqui{
+  color: #1972A8;
+  text-decoration: underline;
+}
+
+@media(max-width: 920px) {
+  .right-signup {
+    display: none;
+  }
+
+  .left-signup{
+    width: 100%;
+    height: 100%;
+    outline: 1px solid red;
+  }
+
+  .container-form-signup{
+    width: 100%;
+  }
+  .container-form-signup form{
+    min-width: 90%; 
+  }
+}

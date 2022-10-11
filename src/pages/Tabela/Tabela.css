@@ -1,0 +1,74 @@
+.container-tabela {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;   
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #F4F0F0;
+    margin-bottom: 24px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.corpo-tabela {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.linha {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #FFFAFA;
+    padding: 0 20px;
+    margin-bottom: 8px;
+    height: 46px;
+}
+
+.normal {
+    width: 90px;
+    
+}
+
+.grande {
+    width: 25px;
+
+}
+
+.pequena {
+    width: 40px;
+}
+
+.editar-excluir {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.editar-excluir img{
+    cursor: pointer;
+}
+
+@media (max-width:900px) {
+    .linha {
+        width: 200%;
+    }
+    .cabecalho {
+        width: 200%;
+    }
+   .container-tabela{
+    overflow: auto;
+   }
+   
+}
